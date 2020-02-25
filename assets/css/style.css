@@ -504,6 +504,10 @@ section {
   background-color: #f5f5f7;
 }
 
+.section-bg2 {
+  background-color: #2a4461;
+}
+
 .section-title {
   text-align: center;
   padding-bottom: 30px;
@@ -588,6 +592,7 @@ section {
   transition: 0.3s;
 }
 
+
 .about .icon-box .title a:hover {
   color: #428bca;
 }
@@ -597,6 +602,15 @@ section {
   line-height: 24px;
   font-size: 14px;
   text-align: justify;
+}
+
+.about .icon-box .description2 {
+  margin-left: 95px;
+  line-height: 24px;
+  font-size: 14px;
+  text-align: justify;
+  color: #d4d8db;
+
 }
 
 .about .video-box {
@@ -1197,14 +1211,16 @@ section {
 }
 
 #footer {
-  background: #587187;
+/*  background: #587187;*/
+  background: #20373f;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #5c768d;
+/*  background: #5c768d;*/
+  background: #2e5b70;
   border-top: 1px solid #768fa6;
   border-bottom: 1px solid #67839c;
   padding: 60px 0 30px 0;
