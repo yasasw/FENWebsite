@@ -395,9 +395,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero .carousel-content {
-/*  background-color: #000000;
-  opacity: 0.6;*/
+  background-color: #000000;
+  opacity: 0.6;
   text-align: left;
+  width: 300px;
+
+/*  padding: 20px 55px 15px 35px;
+  display: block;*/
 }
 
 @media (max-width: 992px) {
@@ -405,19 +409,19 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     height: calc(100vh - 70px);
   }
   #hero .carousel-content.container { 
-    padding: 0 50px;
+    padding: 300px 300px;
   }
 }
 
 #hero h2 {
   color: #fff;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 500;
 }
 
 #hero p {
-  width: 80%;
+  width: 100%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   color: #fff;
