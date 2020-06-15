@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(13, 30, 45, 0.5); /*Original> (13, 30, 45, 0.6)*/
+  background-color: rgba(13, 30, 45, 0.6); /*Original> (13, 30, 45, 0.6)*/
   position: absolute;
   height: 100%;
   width: 100%;
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 #hero p {
