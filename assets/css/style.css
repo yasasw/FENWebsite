@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(13, 30, 45, 0.6); /*Original> (13, 30, 45, 0.6)*/
+  background-color: rgba(13, 30, 45, 0.2); /*Original> (13, 30, 45, 0.6)*/
   position: absolute;
   height: 100%;
   width: 100%;
@@ -389,14 +389,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   position: absolute;
   bottom: 0;
   top: 0;
-  left: 0;
+  left: 800px;
   right: 0;
   overflow: hidden;
 }
 
 #hero .carousel-content {
   background-color: #000000;
-  opacity: 0.6;
+  opacity: 0.8;
   text-align: left;
   width: 300px;
 
