@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #3b3b3b; /*#5c768d;*/
+  color: #292929; /*#5c768d;*/
   padding: 12px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -371,7 +371,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(13, 30, 45, 0.2); /*Original> (13, 30, 45, 0.6)*/
+  background-color: rgba(13, 30, 45, 0); /*Original> (13, 30, 45, 0.6)*/
   position: absolute;
   height: 100%;
   width: 100%;
@@ -389,7 +389,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   position: absolute;
   bottom: 0;
   top: 0;
-  left: 800px;
+  left: 850px;
   right: 0;
   overflow: hidden;
 }
@@ -399,6 +399,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   opacity: 0.8;
   text-align: left;
   width: 300px;
+  padding-right: 0;
+  padding-left: 10;
 
 /*  padding: 20px 55px 15px 35px;
   display: block;*/
@@ -407,6 +409,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 @media (max-width: 992px) {
   #hero, #hero .carousel-item {
     height: calc(100vh - 70px);
+    
   }
   #hero .carousel-content.container { 
     padding: 300px 300px;
@@ -418,6 +421,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-bottom: 30px;
   font-size: 38px;
   font-weight: 500;
+  animation-duration: 1s;
 }
 
 #hero p {
@@ -425,6 +429,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   color: #fff;
+  animation-duration: 1s;
 }
 
 #hero .carousel-inner .carousel-item {
@@ -1624,6 +1629,34 @@ Serivce about customs
     transform: rotate(360deg);
   }
 }
+/*
+.animated{
+  animation-duration: 1s;
+}
+*/
+
+@keyframes fadeInDown {
+  0% {
+     opacity: 0;
+     transform: translateY(-30px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+} 
+
+@keyframes fadeInUp {
+  0% {
+     opacity: 0;
+     transform: translateY(30px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+} 
+
 
 #footer {
 /*  background: #587187;*/
@@ -1785,7 +1818,7 @@ Serivce about customs
 ==================================
 */
 
-.be-post { width: 16.65%; float: left; padding: 0 5px; margin-bottom: 5px !important;
+.be-post { width: 20.65%; float: left; padding: 30px 30px; margin-bottom: 5px !important;
 }
 
 .be-img-block { overflow: hidden; display: block; }
@@ -1805,7 +1838,7 @@ Serivce about customs
 
 .border_Sep{border-bottom: #E8E8E8 1px solid;}
 
-.be-post-title {position: relative;	display: block;	font-size: 13px; line-height: 20px;	font-family: 'Conv_helveticaneuecyr-bold'; color: #535353; margin: 0 15px 10px 15px; padding-bottom: 0px; overflow: hidden;text-overflow: ellipsis;}
+.be-post-title {position: relative;	display: block;	font-size: 13px; line-height: 20px;	font-family: 'Conv_helveticaneuecyr-bold' ;color: #535353; margin: 0 15px 10px 15px; padding-bottom: 0px; overflow: hidden;text-overflow: ellipsis;}
 
 a.be-post-title:hover { color: #0D58C8; }
 
@@ -1819,10 +1852,9 @@ a.be-post-title:hover { color: #0D58C8; }
 
 .be-post > span { color: #b4b7c1; display: block; font-size: 11px; line-height: 20px; padding: 0 15px; margin-bottom: 15px; }
 
-.info-block { background: #FFFFFF; padding: 15px 15px 10px 0px; font-size: 16px; color: #b4b7c1 !important; min-height:0px; text-align:center; }
+.info-block { background: #FFFFFF; padding: 15px 15px 10px 10px; font-size: 16px; color: #b4b7c1 !important; min-height:0px; text-align:center; }
 
-.title-block p { margin-bottom: 5px; font-weight:700; line-height: 18px; margin: 0 0 12px 0; font-size: 16px; color: #313131 !important;     font-family: 'Lato', sans-serif; text-transform:uppercase; text-align:center;
- }
+.title-block p { margin-bottom: 5px; font-weight:400; line-height: 18px; margin: 0 0 12px 0; font-size: 16px; color: rgb(47, 47, 47) !important;     font-family: 'Lato', sans-serif; text-transform:uppercase; text-align:center; }
  
  
   @media screen and (max-width: 1480px) and (min-width: 1281px) {
