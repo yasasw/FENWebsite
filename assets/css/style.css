@@ -389,9 +389,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   position: absolute;
   bottom: 0;
   top: 0;
-  left: 850px;
+  left: 60vw;
   right: 0;
-  overflow: hidden;
+  overflow: auto;
 }
 
 #hero .carousel-content {
@@ -401,6 +401,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 300px;
   padding-right: 0;
   padding-left: 10;
+
 
 /*  padding: 20px 55px 15px 35px;
   display: block;*/
@@ -413,6 +414,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   }
   #hero .carousel-content.container { 
     padding: 300px 300px;
+    height: 70vh;
   }
 }
 
@@ -1854,7 +1856,7 @@ a.be-post-title:hover { color: #0D58C8; }
 
 .info-block { background: #FFFFFF; padding: 15px 15px 10px 10px; font-size: 16px; color: #b4b7c1 !important; min-height:0px; text-align:center; }
 
-.title-block p { margin-bottom: 5px; font-weight:400; line-height: 18px; margin: 0 0 12px 0; font-size: 16px; color: rgb(47, 47, 47) !important;     font-family: 'Lato', sans-serif; text-transform:uppercase; text-align:center; }
+.title-block p { margin-bottom: 5px; font-weight:400; line-height: 18px; margin: 0 0 12px 0; font-size: 16px; color: rgb(56, 53, 53) !important;     font-family: 'Lato', sans-serif; text-transform:uppercase; text-align:center; }
  
  
   @media screen and (max-width: 1480px) and (min-width: 1281px) {
@@ -1887,7 +1889,7 @@ a.be-post-title:hover { color: #0D58C8; }
 }
 
 
-.info-block p {	color: #313131!important; line-height:18px;	margin: 0 0 0 0;}
+.info-block p {	color: #5a5858!important; line-height:18px;	margin: 0 0 0 0;}
 
 
 .info-block-label { font-size: 14px; line-height: 18px; font-family: 'Conv_helveticaneuecyr-bold'; color: #383b43; }
