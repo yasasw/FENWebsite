@@ -807,12 +807,12 @@ h6,
 }
 
 #newssection button {
-	background-color:transparent;
+	background-color:rgb(43, 205, 255);
 	border-radius:28px;
-	border:1px solid #a9a9a9;
+	border:1px solid transparent;
 	display:inline-block;
 	cursor:pointer;
-	color:#1e1e1e;
+	color:#1e1e1e;  
 	font-family:Arial;
 	font-size:17px;
 	padding:5px 31px;
@@ -821,7 +821,7 @@ h6,
 }
 
 #newssection button:hover {
-  background-color: rgb(43, 205, 255);
+  background-color: rgb(86, 201, 236);
   color: rgb(0, 0, 0);
 }
 #newssection button:active {
