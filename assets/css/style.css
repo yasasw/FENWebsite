@@ -751,10 +751,10 @@ h6,
 }
 
 #newssection h2 {
-  color: #fff;
+  color: rgb(68, 68, 68);
   margin-bottom: 30px;
-  font-size: 38px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 600;
   animation-duration: 1s;
 }
 
@@ -762,9 +762,32 @@ h6,
   width: 100%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
-  color: #fff;
+  color: rgb(81, 81, 81);
   animation-duration: 1s;
 }
+
+#newssection button {
+	background-color:transparent;
+	border-radius:28px;
+	border:1px solid #a9a9a9;
+	display:inline-block;
+	cursor:pointer;
+	color:#1e1e1e;
+	font-family:Arial;
+	font-size:17px;
+	padding:5px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+#newssection button:hover {
+	background-color:transparent;
+}
+#newssection button:active {
+	position:relative;
+	top:1px;
+}
+
 
 #newssection .carousel-inner .carousel-item {
   transition-property: opacity;
