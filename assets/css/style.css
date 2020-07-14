@@ -205,7 +205,7 @@ h6,
 # Cta2
 --------------------------------------------------------------*/
 .cta2 {
-  background: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)), url("../img/slide/fensolar2.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)), url("../img/slide/fensolar3.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -2193,15 +2193,16 @@ background-color: white;
   /*  background: #587187;*/
   background: #20373f;
   padding: 0 0 30px 0;
-  color: #fff;
+  color: rgb(0,96,7);
   font-size: 14px;
 }
 
+
 #footer .footer-top {
   /*  background: #5c768d;*/
-  background: #0f2129;
-  border-top: 1px solid #0d1216;
-  border-bottom: 1px solid #05080a;
+  background: #ffffff;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
   padding: 60px 0 30px 0;
 }
 
@@ -2222,14 +2223,14 @@ background-color: white;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: rgb(95, 95, 95);
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #768fa6;
-  color: #fff;
+  color: rgb(44, 44, 44);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -2242,14 +2243,14 @@ background-color: white;
 
 #footer .footer-top .social-links a:hover {
   background: #428bca;
-  color: #fff;
+  color: rgb(47, 47, 47);
   text-decoration: none;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: rgb(39, 39, 39);
   position: relative;
   padding-bottom: 12px;
 }
@@ -2266,7 +2267,7 @@ background-color: white;
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #9eccf4;
+  color: #072b4a;
   font-size: 18px;
   line-height: 1;
 }
@@ -2282,7 +2283,7 @@ background-color: white;
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: rgb(11, 57, 86);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -2328,6 +2329,7 @@ background-color: white;
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  color: white;
 }
 
 #footer .credits {
