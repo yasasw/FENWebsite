@@ -15,6 +15,8 @@ body {
   overflow-x: hidden;
 }
 
+#map { position: absolute; top: 0; bottom: 0; width: 100%;}
+
 a {
   color: #428bca;
 }
