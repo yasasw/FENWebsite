@@ -11,6 +11,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
+  padding-right: 0;
+  overflow-x: hidden;
 }
 
 a {
@@ -371,7 +373,6 @@ h6,
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  padding: 10px 0;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
@@ -399,7 +400,8 @@ h6,
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active>a,
 .nav-menu .drop-down ul li:hover>a {
-  color: #428bca;
+  color: #ffffff;
+  background-color: #103453;
 }
 
 .nav-menu .drop-down>a:after {
@@ -2200,9 +2202,7 @@ background-color: white;
 
 #footer .footer-top {
   /*  background: #5c768d;*/
-  background: #ffffff;
-  border-top: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
+  background: #bbbbbb;
   padding: 60px 0 30px 0;
 }
 
@@ -2290,7 +2290,7 @@ background-color: white;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #9eccf4;
+  color: #ffffff;
 }
 
 #footer .footer-top .footer-newsletter form {
