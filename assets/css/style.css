@@ -87,6 +87,8 @@ h6,
 .sidebar li button:hover {
   background-color: rgb(43, 205, 255);
   color: white;
+  border: none;
+  text-decoration: none;
 }
 
 .widget {
@@ -2254,7 +2256,7 @@ background-color: white;
 
 #footer .footer-top .social-links a:hover {
   background: #428bca;
-  color: rgb(47, 47, 47);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
