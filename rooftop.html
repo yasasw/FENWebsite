@@ -22,6 +22,7 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -43,215 +44,166 @@
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="logo float-left">
-      <h1 class="text-light"><a href="index.html"><span><img src="assets/img/fe.jpg" alt="First Energy" height="40" width="200">
+      <h1 class="text-light"><a href="index.html"><span><img src="./assets/img/fe.jpg" alt="First Energy" height="40" width="200">
           </span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
     </div>
 
-
-
-
     <nav class="nav-menu float-right d-none d-lg-block">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
 
         <li class="drop-down"><a href="about.html">Our Company</a>
           <ul>
             <li><a href="about.html">About Us</a></li>
             <li><a href="leadership.html">Leadership</a></li>
             <li><a href="#">Our People</a></li>
-
           </ul>
-
-        <li class="drop-down active"><a href="#services">Solutions</a>
+        <li class="drop-down"><a href="#services">Solutions</a>
           <ul>
             <li><a href="projectmanagement.html">Technical Consultancy</a></li>
-            <li><a href="solarmanagement.html">Solar Investment Management</a></li>
+            <li><a href="projectmanagement.html">Solar Investment Management</a></li>
             <li><a href="utilityscale.html">Ground-Mounted Projects</a></li>
-            <li class="active"><a href="rooftop.html">Rooftop Projects</a></li>
-
+            <li><a href="utilityscale.html">Rooftop Projects</a></li>
           </ul>
         </li>
-        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="projects.html">Projects</a></li>
         <li><a href="#portfolio">Partners</a></li>
         <li><a href="#team">FAQs</a></li>
         <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav><!-- .nav-menu -->
-
   </header><!-- End Header -->
-  <section style="background-color: rgb(236, 236, 236);padding: 20px 10px;">
-    <div >
-      <div class="row">
-        <div class="col-md-12" >
-          <h3 style="float: right;font-size: 40px;text-transform: capitalize;">ROOFTOP SYSTEMS</h3>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="16000">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url('assets/img/slide/fensolar4.jpg');"
+            data-interval="16000">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animated fadeInDown">Rooftop<span> Projects</span></h2>
+                <p class="animated fadeInUp">We are changing the world with renewable energy one roof at a time. We are
+                  passionate in providing world-class solar solutions and we act with the fundamental vision of creating
+                  a better and a greener world.</p>
+                <!--a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>-->
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url('assets/img/slide/fen2.jpg');">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animated fadeInDown">We cater to all your energy needs</h2>
+                <p class="animated fadeInUp">Whether it's your home, your business, or even your land, we are prepared
+                  to offer unmatched solutions. You are only restricted by your imagination. So, what do you have in
+                  your mind?</p>
+                <!--a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>-->
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-32.jpg');"
+            data-interval="16000">
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <h2 class="animated fadeInDown">Grow with us</h2>
+                <p class="animated fadeInUp">Whether you are a houseowner, a contractor, a consultant, you can grow with
+                  us to see a better tomorrow and a greener world.</p>
+                <!--a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>-->
+              </div>
+            </div>
+          </div>
+
         </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon icofont-rounded-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon icofont-rounded-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
       </div>
     </div>
+  </section><!-- End Hero -->
+
+  <!--SUB SUB SUB SUB SUB-->
+  <section>
+    <br>
+ <div style="text-align: center;">
+      <h1>Rooftop Projects</h1>
+      <hr style="width: 300px;">
+ </div>
+
+    <div class="row justify-content-md-center" style="margin-left:0px; margin-right:0px;" data-aos="fade-up">
+      <div class="be-post" style="transition: 2s;">
+        <div class="title-block">
+          <a href="residential.html">
+            <p>Residential Projects</p>
+          </a>
+        </div>
+        <div class="be-img-block" data-aos="fade-up" style="transition: 2s;">
+          <img src="assets/img/belowcarousel/fen1.jpg" alt="" width="100" height="200">
+        </div>
+        <div class="info-block" data-aos="fade-up" style="transition: 2s;">
+          <p>We create masterpieces that denote artistry in innovation to prompt lifestyle transformations.
+            We create masterpieces that denote artistry in innovation to prompt lifestyle transformations. </p>
+        </div>
+      </div>
+      
+      <div class="be-post">
+        <div class="title-block">
+          <a href="industrial.html">
+            <p>Industrial <br>Projects</p>
+          </a>
+        </div>
+        <div class="be-img-block" data-aos="fade-up" style="transition: 2s;">
+          <img src="assets/img/belowcarousel/mountains.png" alt="">
+        </div>
+        <div class="info-block" data-aos="fade-up" style="transition: 2s;">
+          <p>Our passion to be the best is transforming the concept of hospitality with unimaginable vistas of artistry
+            to create industry benchmarks. We create masterpieces that denote artistry in innovation to prompt lifestyle
+            transformations</p>
+        </div>
+      </div>
+
+      <div class="be-post">
+        <div class="title-block">
+          <a href="operations_and_maintenance.html">
+            <p>Operations and <br>Maintenance</p>
+          </a>
+        </div>
+        <div class="be-img-block" data-aos="fade-up" style="transition: 2s;">
+          <img src="assets/img/belowcarousel/fen2.jpg" alt="">
+        </div>
+        <div class="info-block" data-aos="fade-up" style="transition: 2s;">
+          <p>As titans in financial innovation, we continue to push the bar in service excellence, asserting our
+            leadership and redefining horizons. We create masterpieces that denote artistry in innovation to prompt
+            lifestyle transformations</p>
+        </div>
+      </div>
+      
   </section>
 
 
-  <main id="main">
-
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 sidebar">
-            <div class="widget" id="sidebar2">
-              <div class="widget-body">
-
-                <ul class="clearlist widget-comments subnavi">
-
-                  <li><a href="projectmanagement.html" title=""><button>Technical
-                        Consultancy</button></a></li>
-                  <li><a href="solarmanagement.html" title=""><button>Solar Management</button></a></li>
-
-                  <li><a href="utilityscale.html" title=""><button>Ground-Mounted</button></a></li>
-
-                  <li><a href="rooftop.html" title=""><button
-                        style="background-color: rgb(43, 205, 255); color: white;">Rooftop Projects</button></a></li>
-                </ul>
-
-              </div>
-            </div>
-
-          </div>
-          <div class="col-md-9">
-
-              <div class="container services" id="services">
-                <h1>Rooftop Systems</h1>
-                <br>
-
-
-
-                <div class="row">
-                  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                    <a href="residential.html">
-                      <div class="icon"><i class="icofont-home"></i></div>
-                    </a>
-                    <h4 class="title"><a href="residential.html">Residential</a></h4>
-                    <p class="description">Enjoy the perks of being close to the equator and pay less for your energy
-                      every month.</p>
-                  </div>
-
-                  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                    <a href="commercial.html">
-                      <div class="icon"><i class="icofont-building-alt"></i></div>
-                    </a>
-                    <h4 class="title"><a href="commercial.html">Commercial</a></h4>
-                    <p class="description">Run your business/office smoothly with levelized cost of electricity(LCoE).
-                    </p>
-                  </div>
-                  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-                    <a href="industrial.html">
-                      <div class="icon"><i class="icofont-industries-1"></i></div>
-                    </a>
-                    <h4 class="title"><a href="industrial.html">Industrial</a></h4>
-                    <p class="description">Generate power at your own factory/plant and reap the benefits of
-                      uninterrupted electricity with less costs and minimum maintenance.</p>
-                  </div>
-
-
-                </div>
-
-              </div>
-
-
-
-            <!-- ======= Counts Section ======= -->
-            <section class="counts section-bg" style="background-color: white;">
-              <div class="container" style="background: transparent;">
-
-                <div class="row">
-
-                  <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
-                    <div class="count-box">
-
-                      <i class="icofont-simple-smile" style="color: rgb(161, 161, 161);"></i>
-                      <span data-toggle="counter-up">21</span>
-                      <p>Happy <br>Clients</p>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <div class="count-box">
-                      <i class="icofont-under-construction-alt" style="color: rgb(161, 161, 161);"></i>
-                      <span data-toggle="counter-up">21</span>
-                      <p>Ongoing <br>Projects</p>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="400">
-                    <div class="count-box">
-                      <i class="icofont-energy-solar" style="color: rgb(161, 161, 161);"></i>
-                      <span data-toggle="counter-up">21</span>
-                      <p>MWp Cumulative Capacity</p>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
-                    <div class="count-box">
-                      <i class="icofont-money" style="color: rgb(161, 161, 161);"></i>
-                      <span data-toggle="counter-up">13.99</span>
-                      <p>Mn <br>USD</p>
-                    </div>
-                  </div>
-
-                </div>
-
-              </div>
-            </section><!-- End Counts Section -->
-
-
-
-
-
-
-
-
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ======= Service Cards ======= -->
-
-
-
-
-
-
-
-    <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Inquire Us</h2>
-        </div>
-
-        <div class="row">
-
-
-
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Us Section -->
-
-  </main><!-- End #main -->
-
   <!-- ======= Footer ======= -->
   <footer id="footer">
+
     <div class="footer-top">
       <div class="container">
         <div class="row">
@@ -287,25 +239,22 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Solutions</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Industrial</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Commercial</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Residential</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Utility Scale and Grid Connected</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Consultancy and Project Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Component Sales</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Technical Consultancy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Solar Investment Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Ground-Mounted Projects</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Rooftop Projects</a></li>
 
             </ul>
           </div>
 
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Enter your email and subscribe to our newsletter.</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
+          <!--div class="col-lg-4 col-md-6 footer-newsletter">
+            <div class="container">
+              <div class="copyright">
+                &copy; Copyright <strong><span>FirstEnergy</span></strong>. All Rights Reserved
+              </div>
+            </div>
+          </div-->
 
         </div>
       </div>
@@ -314,13 +263,6 @@
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>FirstEnergy</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/ -->
-
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -334,6 +276,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>

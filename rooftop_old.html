@@ -29,9 +29,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  
-<script src="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js"></script>
-<link href="https://api.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css" rel="stylesheet" />
   <!-- =======================================================
   * Template Name: Mamba - v2.0.1
   * Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
@@ -71,15 +68,15 @@
           <ul>
             <li><a href="projectmanagement.html">Technical Consultancy</a></li>
             <li><a href="solarmanagement.html">Solar Investment Management</a></li>
-            <li class="active"><a href="utilityscale.html">Ground-Mounted Projects</a></li>
-            <li><a href="rooftop.html">Rooftop Projects</a></li>
+            <li><a href="utilityscale.html">Ground-Mounted Projects</a></li>
+            <li class="active"><a href="rooftop.html">Rooftop Projects</a></li>
 
           </ul>
         </li>
-        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#portfolio">Projects</a></li>
         <li><a href="#portfolio">Partners</a></li>
         <li><a href="#team">FAQs</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -88,7 +85,7 @@
     <div >
       <div class="row">
         <div class="col-md-12" >
-          <h3 style="float: right;font-size: 40px;text-transform: capitalize;">GROUND-MOUNTED SYSTEMS</h3>
+          <h3 style="float: right;font-size: 40px;text-transform: capitalize;">ROOFTOP SYSTEMS</h3>
         </div>
       </div>
     </div>
@@ -106,12 +103,14 @@
 
                 <ul class="clearlist widget-comments subnavi">
 
-                  <li><a href="projectmanagement.html" title=""><button>Technical Consultancy</button></a></li>
+                  <li><a href="projectmanagement.html" title=""><button>Technical
+                        Consultancy</button></a></li>
                   <li><a href="solarmanagement.html" title=""><button>Solar Management</button></a></li>
 
-                  <li><a href="utilityscale.html" title=""><button style="background-color: rgb(43, 205, 255); color: white;">Ground-Mounted</button></a></li>
+                  <li><a href="utilityscale.html" title=""><button>Ground-Mounted</button></a></li>
 
-                  <li><a href="rooftop.html" title=""><button>Rooftop Projects</button></a></li>
+                  <li><a href="rooftop.html" title=""><button
+                        style="background-color: rgb(43, 205, 255); color: white;">Rooftop Projects</button></a></li>
                 </ul>
 
               </div>
@@ -120,44 +119,49 @@
           </div>
           <div class="col-md-9">
 
-            <!--Card 1 Begin----------------------------------------------------------------------------------->
-              <div class="container">
-                <h1>Utility-Scale Ground-Mounted Systems</h1>
+              <div class="container services" id="services">
+                <h1>Rooftop Systems</h1>
+                <br>
 
 
-                <div class="row no-gutters">
-                  <div class="col-lg-6 video-box" data-aos="fade-right" data-aos-delay="100">
-                    <div id="map"></div>
+
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                    <a href="residential.html">
+                      <div class="icon"><i class="icofont-home"></i></div>
+                    </a>
+                    <h4 class="title"><a href="residential.html">Residential</a></h4>
+                    <p class="description">Enjoy the perks of being close to the equator and pay less for your energy
+                      every month.</p>
                   </div>
 
-                  <div class="col-lg-6 d-flex flex-column justify-content-center about-content" style="padding-left: 10px;">
-
-                    <div class="section-title" data-aos="fade-up" data-aos-delay="250">
-                      <p>Utility-scale solar energy has become the lowest cost electricity in many parts of the world in
-                        ideal
-                        environmental conditions, even with minor patronage from governments. In Sri Lanka, authorities
-                        have set
-                        a cap of LKR 18.37 as Feed in Tariff. This rate is attractive for systems in the range of 10
-                        megawatts,
-                        and would be tight for smaller-scale systems. In the long term, this would be a luxury for the
-                        utility
-                        service provider, as this tariff is fixed without any escalation for 20 years despite inflation.
-                        It’s a
-                        win-win situation for the developer and the utility company, CEB.
-                      </p>
-                    </div>
-
-
+                  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                    <a href="commercial.html">
+                      <div class="icon"><i class="icofont-building-alt"></i></div>
+                    </a>
+                    <h4 class="title"><a href="commercial.html">Commercial</a></h4>
+                    <p class="description">Run your business/office smoothly with levelized cost of electricity(LCoE).
+                    </p>
                   </div>
+                  <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                    <a href="industrial.html">
+                      <div class="icon"><i class="icofont-industries-1"></i></div>
+                    </a>
+                    <h4 class="title"><a href="industrial.html">Industrial</a></h4>
+                    <p class="description">Generate power at your own factory/plant and reap the benefits of
+                      uninterrupted electricity with less costs and minimum maintenance.</p>
+                  </div>
+
+
                 </div>
 
               </div>
-              <!--Card 1 End------------------------------------------------------------------------------------>
 
-            
+
+
             <!-- ======= Counts Section ======= -->
             <section class="counts section-bg" style="background-color: white;">
-              <div class="container">
+              <div class="container" style="background: transparent;">
 
                 <div class="row">
 
@@ -166,7 +170,7 @@
 
                       <i class="icofont-simple-smile" style="color: rgb(161, 161, 161);"></i>
                       <span data-toggle="counter-up">21</span>
-                      <p>Happy Clients</p>
+                      <p>Happy <br>Clients</p>
                     </div>
                   </div>
 
@@ -174,7 +178,7 @@
                     <div class="count-box">
                       <i class="icofont-under-construction-alt" style="color: rgb(161, 161, 161);"></i>
                       <span data-toggle="counter-up">21</span>
-                      <p>Ongoing Projects</p>
+                      <p>Ongoing <br>Projects</p>
                     </div>
                   </div>
 
@@ -190,7 +194,7 @@
                     <div class="count-box">
                       <i class="icofont-money" style="color: rgb(161, 161, 161);"></i>
                       <span data-toggle="counter-up">13.99</span>
-                      <p>USD Mn</p>
+                      <p>Mn <br>USD</p>
                     </div>
                   </div>
 
@@ -338,18 +342,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <script>
-    // TO MAKE THE MAP APPEAR YOU MUST
-    // ADD YOUR ACCESS TOKEN FROM
-    // https://account.mapbox.com
-    mapboxgl.accessToken = 'pk.eyJ1IjoicGFzaW5kdXZpbWFuc2EiLCJhIjoiY2tkMnk3ZGNrMDVmNzJxdWx5c3hyMnlsdSJ9.hEqziRim_DYe_2hQsqCyQw';
-  var map = new mapboxgl.Map({
-  container: 'map', // container id
-  style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
-  center: [80, 8], // starting position [lng, lat]
-  zoom: 5.7 // starting zoom
-  });
-  </script>
 </body>
 
 </html>
