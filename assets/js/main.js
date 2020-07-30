@@ -180,12 +180,14 @@
   // residentials rooftop 
   $(function() {
     $('#showdiv1').click(function() {
-        $('div[id^=div]').fadeOut();
-        $('#div1').fadeIn(1000);
+        $(this).addClass('btn-active');
+        $('showdiv[id^=button]').removeClass('btn-active');
+        $('div[id^=div]').hide();
+        $('#div1').show();
     });
     $('#showdiv2').click(function() {
-        $('div[id^=div]').fadeOut();
-        $('#div2').fadeIn(1000);
+        $('div[id^=div]').hide();
+        $('#div2').show();
     });
 
     $('#showdiv3').click(function() {
