@@ -2750,3 +2750,11 @@ a.be-post-title:hover {
 .like-counter {
   float: right;
 }
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}

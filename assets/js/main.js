@@ -177,4 +177,27 @@
     easing: "ease-in-out-back"
   });
 
+  // residentials rooftop 
+  $(function() {
+    $('#showdiv1').click(function() {
+        $('div[id^=div]').fadeOut();
+        $('#div1').fadeIn(1000);
+    });
+    $('#showdiv2').click(function() {
+        $('div[id^=div]').fadeOut();
+        $('#div2').fadeIn(1000);
+    });
+
+    $('#showdiv3').click(function() {
+        $('div[id^=div]').hide();
+        $('#div3').show();
+    });
+
+    $('#showdiv4').click(function() {
+        $('div[id^=div]').hide();
+        $('#div4').show();
+    });
+
+})
+
 })(jQuery);
