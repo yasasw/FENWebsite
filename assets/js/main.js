@@ -180,24 +180,30 @@
   // residentials rooftop 
   $(function() {
     $('#showdiv1').click(function() {
+        $('a[id^=show]').removeClass('btn-active');
         $(this).addClass('btn-active');
-        $('showdiv[id^=button]').removeClass('btn-active');
         $('div[id^=div]').hide();
-        $('#div1').show();
+        $('#div1').fadeIn(3000);
     });
     $('#showdiv2').click(function() {
+      $('a[id^=show]').removeClass('btn-active');
+        $(this).addClass('btn-active');
         $('div[id^=div]').hide();
-        $('#div2').show();
+        $('#div2').fadeIn(3000);
     });
 
     $('#showdiv3').click(function() {
+      $('a[id^=show]').removeClass('btn-active');
+        $(this).addClass('btn-active');
         $('div[id^=div]').hide();
-        $('#div3').show();
+        $('#div3').fadeIn(3000);
     });
 
     $('#showdiv4').click(function() {
+      $('a[id^=show]').removeClass('btn-active');
+        $(this).addClass('btn-active');
         $('div[id^=div]').hide();
-        $('#div4').show();
+        $('#div4').fadeIn(3000);
     });
 
 })

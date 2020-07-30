@@ -90,8 +90,8 @@ h6,
 
 
 .sidebar li a:hover {
-  background-color: rgb(170, 170, 170);
-  color: white;
+  background-color: rgb(243, 243, 243);
+  color: black;
   border: none;
   text-decoration: none;
   cursor: pointer;
@@ -2769,6 +2769,7 @@ a.be-post-title:hover {
 }
 
 .btn-active{
-  background-color: rgb(255, 0, 0);
-  color: rgb(0, 0, 0);
+  color: white !important;
+  background-color: rgb(221, 221, 221);
+ 
 }
