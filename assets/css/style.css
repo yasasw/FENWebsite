@@ -243,7 +243,7 @@ h6,
 .cta2 {
   background: linear-gradient(rgba(2, 2, 2, 0.3), rgba(0, 0, 0, 0.3)), url("../img/slide/fensolar3.jpg") fixed center center;
   background-size: cover;
-  padding: 60px 0;
+  padding: 2% 0% 5% 0%;
 }
 
 .cta2 h3 {
@@ -970,7 +970,7 @@ h6,
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 1% 0;
 }
 
 .section-bg {
@@ -2791,4 +2791,11 @@ a.be-post-title:hover {
   color: white !important;
   background-color: rgb(221, 221, 221);
  
+}
+
+.widget-comments li a:before{
+  content: "\003E ";
+  padding-left: 5px;
+  padding-right:5px;
+  
 }
