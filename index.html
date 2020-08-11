@@ -37,10 +37,39 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+
+  <style type="text/css">/* Paste this css to your style sheet file or under head tag */
+    /* This only works with JavaScript, 
+    if it's not present, don't show loader */
+    .no-js #loader { display: none;  }
+    .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+    .se-pre-con {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+    }
+      </style>
+      <script src="assets/vendor/jquery/2jquery.min.js"></script>     
+      <script src="assets/vendor/jquery/modernizr.min.js"></script>
+      <script>
+      //paste this code under head tag or in a seperate js file.
+      // Wait for window load
+      $(window).on("load", function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+      });
+    </script>
+  
 </head>
 
 <body>
-
+  <div class="se-pre-con"></div>
+  
 
   <!-- ======= Header ======= -->
   <header id="header">
@@ -91,8 +120,8 @@
             data-interval="16000">
             <div class="carousel-container">
               <div class="carousel-content container d-none d-lg-block">
-                <h2 class="animated fadeInDown">Welcome to <span>First Energy</span></h2>
-                <p class="animated fadeInUp">We are changing the world with renewable energy one roof at a time. We are
+                <h2 class="animated fadeInDown">Welcome to </br>First Energy</h2>
+                <p class="animated fadeInUp delay-3s">We are changing the world with renewable energy one roof at a time. We are
                   passionate in providing world-class solar solutions and we act with the fundamental vision of creating
                   a better and a greener world.</p>
                 <!--a href="#about" class="btn-get-started animated fadeInUp scrollto">Read More</a>-->
@@ -173,58 +202,58 @@
   <!--SUB SUB SUB SUB SUB-->
   <section>
     <br>
- <div style="text-align: center;">
+ <div style="text-align: center;" data-aos="fade-up" data-aos-duration="1000">
       <h1>Solutions</h1>
       <hr style="width: 300px;">
  </div>
 
-    <div class="row justify-content-md-center" style="margin-left:0px; margin-right:0px;" data-aos="fade-up">
+    <div class="row justify-content-md-center" style="margin-left:0px; margin-right:0px;margin-bottom: 5%;" data-aos="fade-up">
       <div class="be-post" style="transition: 2s;">
         <div class="title-block">
           <a href="rooftop.html">
             <p>Rooftop Projects</p>
-          </a>
+          
         </div>
-        <div class="be-img-block" data-aos="fade-up" style="transition: 2s;">
+        <div class="be-img-block" data-aos="fade-up" data-aos-duration="1200">
           <img src="assets/img/belowcarousel/fen1.jpg" alt="" width="100" height="200">
         </div>
-        <div class="info-block" data-aos="fade-up" style="transition: 2s;">
+        <!--div class="info-block" data-aos="fade-up" style="transition: 2s;">
           <p>We create masterpieces that denote artistry in innovation to prompt lifestyle transformations.
             We create masterpieces that denote artistry in innovation to prompt lifestyle transformations. </p>
-        </div>
+        </div--></a>
       </div>
       
       <div class="be-post">
         <div class="title-block">
           <a href="ground_mounted.html">
             <p>Ground-Mounted<br>Projects</p>
-          </a>
+          
         </div>
-        <div class="be-img-block" data-aos="fade-up" style="transition: 2s;">
+        <div class="be-img-block" data-aos="fade-up" data-aos-duration="1400">
           <img src="assets/img/belowcarousel/mountains.png" alt="">
         </div>
-        <div class="info-block" data-aos="fade-up" style="transition: 2s;">
+        <!--div class="info-block" data-aos="fade-up" style="transition: 2s;">
           <p>Our passion to be the best is transforming the concept of hospitality with unimaginable vistas of artistry
             to create industry benchmarks. We create masterpieces that denote artistry in innovation to prompt lifestyle
             transformations</p>
-        </div>
+        </div--></a>
       </div>
 
       <div class="be-post">
         <div class="title-block">
           <a href="project_mgt_and_inv_mgt.html">
             <p>Project Development<br> & Investment Management</p>
-          </a>
+          
         </div>
-        <div class="be-img-block" data-aos="fade-up" style="transition: 2s;">
+        <div class="be-img-block" data-aos="fade-up" data-aos-duration="1600">
           <img src="assets/img/belowcarousel/fen2.jpg" alt="">
         </div>
-        <div class="info-block" data-aos="fade-up" style="transition: 2s;">
+        <!--div class="info-block" data-aos="fade-up" style="transition: 2s;">
           <p>As titans in financial innovation, we continue to push the bar in service excellence, asserting our
             leadership and redefining horizons. We create masterpieces that denote artistry in innovation to prompt
             lifestyle transformations</p>
-        </div>
-      </div>
+        </div-->
+      </div></a>
       
   </section>
 
@@ -539,6 +568,7 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
+  
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
@@ -553,6 +583,11 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <!-- Loader-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+ 
 </body>
 
 </html>
