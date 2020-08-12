@@ -1,3 +1,4 @@
+
 /**
 * Template Name: Mamba - v2.0.1
 * Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
@@ -8,6 +9,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444;
@@ -592,14 +594,16 @@ h6,
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 114px);
+  height: 100vh;
+  /*height: calc(100vh - 114px);*/
   padding: 0;
   overflow: hidden;
 }
 
 #hero .carousel-item {
   width: 100%;
-  height: calc(100vh - 114px);
+  height: 100vh;
+  /*height: calc(100vh - 114px);*/
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
@@ -2341,7 +2345,7 @@ background-color: white;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ffffff;
+  color: #5295ce;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -2799,3 +2803,4 @@ a.be-post-title:hover {
   padding-right:5px;
   
 }
+
